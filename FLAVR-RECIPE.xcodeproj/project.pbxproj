@@ -14,6 +14,12 @@
 		B5296DE322C782480040D2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5296DE222C782480040D2C8 /* Assets.xcassets */; };
 		B5296DE622C782480040D2C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5296DE422C782480040D2C8 /* LaunchScreen.storyboard */; };
 		B5296DEF22C783CA0040D2C8 /* CustomeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5296DEE22C783CA0040D2C8 /* CustomeColor.swift */; };
+		B537E34422D1260B0070D18F /* FeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537E34322D1260B0070D18F /* FeatureCell.swift */; };
+		B537E34622D126310070D18F /* FeatureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B537E34522D126310070D18F /* FeatureCell.xib */; };
+		B537E34822D1D47E0070D18F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537E34722D1D47E0070D18F /* HeaderView.swift */; };
+		B537E34A22D1D4D60070D18F /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B537E34922D1D4D60070D18F /* HeaderView.xib */; };
+		B537E34C22D1EC400070D18F /* FeaturedCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537E34B22D1EC400070D18F /* FeaturedCollectionCell.swift */; };
+		B537E34E22D1EDC80070D18F /* FeaturedCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B537E34D22D1EDC80070D18F /* FeaturedCollectionCell.xib */; };
 		B577ABD222C7DA44003480C5 /* LoginInSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577ABD122C7DA44003480C5 /* LoginInSignUpViewController.swift */; };
 		B577ABD422C7F076003480C5 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577ABD322C7F076003480C5 /* CustomButton.swift */; };
 		B5CBA56422CC85B9002F5FDB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CBA56322CC85B9002F5FDB /* LoginVC.swift */; };
@@ -42,6 +48,12 @@
 		B5296DE522C782480040D2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5296DE722C782480040D2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5296DEE22C783CA0040D2C8 /* CustomeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeColor.swift; sourceTree = "<group>"; };
+		B537E34322D1260B0070D18F /* FeatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCell.swift; sourceTree = "<group>"; };
+		B537E34522D126310070D18F /* FeatureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeatureCell.xib; sourceTree = "<group>"; };
+		B537E34722D1D47E0070D18F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B537E34922D1D4D60070D18F /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		B537E34B22D1EC400070D18F /* FeaturedCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCollectionCell.swift; sourceTree = "<group>"; };
+		B537E34D22D1EDC80070D18F /* FeaturedCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeaturedCollectionCell.xib; sourceTree = "<group>"; };
 		B577ABD122C7DA44003480C5 /* LoginInSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInSignUpViewController.swift; sourceTree = "<group>"; };
 		B577ABD322C7F076003480C5 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		B5CBA56322CC85B9002F5FDB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -139,6 +151,12 @@
 			children = (
 				B5CBA57922CE6969002F5FDB /* ReceipeCell.swift */,
 				B5CBA57B22CE69B3002F5FDB /* ReceipeCell.xib */,
+				B537E34322D1260B0070D18F /* FeatureCell.swift */,
+				B537E34522D126310070D18F /* FeatureCell.xib */,
+				B537E34722D1D47E0070D18F /* HeaderView.swift */,
+				B537E34922D1D4D60070D18F /* HeaderView.xib */,
+				B537E34B22D1EC400070D18F /* FeaturedCollectionCell.swift */,
+				B537E34D22D1EDC80070D18F /* FeaturedCollectionCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -222,9 +240,12 @@
 			files = (
 				B5CBA57C22CE69B3002F5FDB /* ReceipeCell.xib in Resources */,
 				B5296DE622C782480040D2C8 /* LaunchScreen.storyboard in Resources */,
+				B537E34622D126310070D18F /* FeatureCell.xib in Resources */,
 				B5296DE322C782480040D2C8 /* Assets.xcassets in Resources */,
 				B5CBA57622CDF09A002F5FDB /* BigPicture.storyboard in Resources */,
 				B5296DE122C782460040D2C8 /* Main.storyboard in Resources */,
+				B537E34A22D1D4D60070D18F /* HeaderView.xib in Resources */,
+				B537E34E22D1EDC80070D18F /* FeaturedCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,13 +299,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5CBA56622CC8619002F5FDB /* CustomeLabel.swift in Sources */,
+				B537E34822D1D47E0070D18F /* HeaderView.swift in Sources */,
 				B5CBA56E22CDEC63002F5FDB /* HomeVc.swift in Sources */,
 				B5CBA57A22CE6969002F5FDB /* ReceipeCell.swift in Sources */,
+				B537E34C22D1EC400070D18F /* FeaturedCollectionCell.swift in Sources */,
 				B5CBA57422CDEE42002F5FDB /* ProfileVC.swift in Sources */,
 				B5CBA56A22CCA946002F5FDB /* SignUpVC.swift in Sources */,
 				B5CBA56C22CCB885002F5FDB /* CustomeNavigationController.swift in Sources */,
 				B5296DDE22C782460040D2C8 /* ViewController.swift in Sources */,
 				B5CBA56822CCA3A8002F5FDB /* CustomeTextField.swift in Sources */,
+				B537E34422D1260B0070D18F /* FeatureCell.swift in Sources */,
 				B5CBA57022CDECBE002F5FDB /* CategoryVC.swift in Sources */,
 				B5296DDC22C782460040D2C8 /* AppDelegate.swift in Sources */,
 				B5CBA56422CC85B9002F5FDB /* LoginVC.swift in Sources */,
