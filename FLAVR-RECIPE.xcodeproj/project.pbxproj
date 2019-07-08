@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A2B9D2CFD0ADD16E16C1CE48 /* Pods_FLAVR_RECIPE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D989CC0EF762078E9450278B /* Pods_FLAVR_RECIPE.framework */; };
+		B50630E222D3BB8700F52048 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50630E122D3BB8700F52048 /* CategoryCell.swift */; };
 		B5296DDC22C782460040D2C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5296DDB22C782460040D2C8 /* AppDelegate.swift */; };
 		B5296DDE22C782460040D2C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5296DDD22C782460040D2C8 /* ViewController.swift */; };
 		B5296DE122C782460040D2C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5296DDF22C782460040D2C8 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		0A319A4A6C8836F2DA909683 /* Pods-FLAVR-RECIPE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLAVR-RECIPE.debug.xcconfig"; path = "Target Support Files/Pods-FLAVR-RECIPE/Pods-FLAVR-RECIPE.debug.xcconfig"; sourceTree = "<group>"; };
 		AEA28D7619A254F1F4314AC2 /* Pods-FLAVR-RECIPE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLAVR-RECIPE.release.xcconfig"; path = "Target Support Files/Pods-FLAVR-RECIPE/Pods-FLAVR-RECIPE.release.xcconfig"; sourceTree = "<group>"; };
+		B50630E122D3BB8700F52048 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		B5296DD822C782450040D2C8 /* FLAVR-RECIPE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLAVR-RECIPE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5296DDB22C782460040D2C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5296DDD22C782460040D2C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				B537E34922D1D4D60070D18F /* HeaderView.xib */,
 				B537E34B22D1EC400070D18F /* FeaturedCollectionCell.swift */,
 				B537E34D22D1EDC80070D18F /* FeaturedCollectionCell.xib */,
+				B50630E122D3BB8700F52048 /* CategoryCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				B5296DEF22C783CA0040D2C8 /* CustomeColor.swift in Sources */,
 				B577ABD222C7DA44003480C5 /* LoginInSignUpViewController.swift in Sources */,
 				B577ABD422C7F076003480C5 /* CustomButton.swift in Sources */,
+				B50630E222D3BB8700F52048 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

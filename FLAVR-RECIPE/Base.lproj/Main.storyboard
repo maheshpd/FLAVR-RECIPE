@@ -255,22 +255,51 @@
             </objects>
             <point key="canvasLocation" x="450" y="2239"/>
         </scene>
-        <!--FAVORITES-->
+        <!--CATEGORIES-->
         <scene sceneID="NI4-Zi-ELt">
             <objects>
                 <tableViewController id="ORu-FK-brf" customClass="CategoryVC" customModule="FLAVR_RECIPE" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fvi-vZ-Pmp">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fvi-vZ-Pmp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="jAk-r1-zDX">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="60" id="jAk-r1-zDX" customClass="CategoryCell" customModule="FLAVR_RECIPE" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jAk-r1-zDX" id="sEA-yd-YvO">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c5O-lS-Tz4" customClass="ShadowView" customModule="FLAVR_RECIPE" customModuleProvider="target">
+                                            <rect key="frame" x="16" y="5" width="343" height="49.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gj-Y1-Fsc">
+                                                    <rect key="frame" x="8" y="8" width="327" height="33.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="5gj-Y1-Fsc" firstAttribute="top" secondItem="c5O-lS-Tz4" secondAttribute="top" constant="8" id="M3v-Mk-fYD"/>
+                                                <constraint firstItem="5gj-Y1-Fsc" firstAttribute="leading" secondItem="c5O-lS-Tz4" secondAttribute="leading" constant="8" id="acE-Xm-zUx"/>
+                                                <constraint firstAttribute="bottom" secondItem="5gj-Y1-Fsc" secondAttribute="bottom" constant="8" id="cyP-Oq-2Hc"/>
+                                                <constraint firstAttribute="trailing" secondItem="5gj-Y1-Fsc" secondAttribute="trailing" constant="8" id="up2-tf-eIg"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="c5O-lS-Tz4" firstAttribute="leading" secondItem="sEA-yd-YvO" secondAttribute="leading" constant="16" id="Psn-QM-5Ld"/>
+                                        <constraint firstAttribute="bottom" secondItem="c5O-lS-Tz4" secondAttribute="bottom" constant="5" id="bEe-h9-4Tr"/>
+                                        <constraint firstItem="c5O-lS-Tz4" firstAttribute="top" secondItem="sEA-yd-YvO" secondAttribute="top" constant="5" id="idI-5b-ZTj"/>
+                                        <constraint firstAttribute="trailing" secondItem="c5O-lS-Tz4" secondAttribute="trailing" constant="16" id="uv5-ec-yXZ"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="categoryLbl" destination="5gj-Y1-Fsc" id="dV2-Z0-CWb"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -278,7 +307,7 @@
                             <outlet property="delegate" destination="ORu-FK-brf" id="ke6-Wo-LF9"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="FAVORITES" id="FJV-hs-V1l">
+                    <navigationItem key="navigationItem" title="CATEGORIES" id="FJV-hs-V1l">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="ic_search" id="P28-lo-bM1">
                             <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </barButtonItem>
@@ -286,7 +315,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ml3-Iv-LHc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1465" y="2239"/>
+            <point key="canvasLocation" x="1464.8" y="2238.530734632684"/>
         </scene>
         <!--FAVORITES-->
         <scene sceneID="c9U-4v-aWa">
