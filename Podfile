@@ -7,4 +7,7 @@ target 'FLAVR-RECIPE' do
 
   # Pods for FLAVR-RECIPE
  pod 'ChameleonFramework/Swift'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+pod 'Firebase/Firestore'
 end

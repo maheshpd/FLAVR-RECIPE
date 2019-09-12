@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A2B9D2CFD0ADD16E16C1CE48 /* Pods_FLAVR_RECIPE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D989CC0EF762078E9450278B /* Pods_FLAVR_RECIPE.framework */; };
 		B50630E222D3BB8700F52048 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50630E122D3BB8700F52048 /* CategoryCell.swift */; };
+		B50BFEFE232983D5001D6197 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B50BFEFD232983D5001D6197 /* GoogleService-Info.plist */; };
+		B50BFF01232A2912001D6197 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50BFF00232A2912001D6197 /* Categories.swift */; };
 		B5296DDC22C782460040D2C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5296DDB22C782460040D2C8 /* AppDelegate.swift */; };
 		B5296DDE22C782460040D2C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5296DDD22C782460040D2C8 /* ViewController.swift */; };
 		B5296DE122C782460040D2C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5296DDF22C782460040D2C8 /* Main.storyboard */; };
@@ -21,6 +23,10 @@
 		B537E34A22D1D4D60070D18F /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B537E34922D1D4D60070D18F /* HeaderView.xib */; };
 		B537E34C22D1EC400070D18F /* FeaturedCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537E34B22D1EC400070D18F /* FeaturedCollectionCell.swift */; };
 		B537E34E22D1EDC80070D18F /* FeaturedCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B537E34D22D1EDC80070D18F /* FeaturedCollectionCell.xib */; };
+		B553C01922DFA4380028C479 /* flavr_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B553C01722DFA4370028C479 /* flavr_logo.png */; };
+		B553C01A22DFA4380028C479 /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B553C01822DFA4370028C479 /* splash.jpg */; };
+		B553C01D22DFA55D0028C479 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553C01C22DFA55D0028C479 /* SplashVC.swift */; };
+		B553C01F22DFB3730028C479 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553C01E22DFB3730028C479 /* TabBarVC.swift */; };
 		B577ABD222C7DA44003480C5 /* LoginInSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577ABD122C7DA44003480C5 /* LoginInSignUpViewController.swift */; };
 		B577ABD422C7F076003480C5 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577ABD322C7F076003480C5 /* CustomButton.swift */; };
 		B5CBA56422CC85B9002F5FDB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CBA56322CC85B9002F5FDB /* LoginVC.swift */; };
@@ -42,6 +48,8 @@
 		0A319A4A6C8836F2DA909683 /* Pods-FLAVR-RECIPE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLAVR-RECIPE.debug.xcconfig"; path = "Target Support Files/Pods-FLAVR-RECIPE/Pods-FLAVR-RECIPE.debug.xcconfig"; sourceTree = "<group>"; };
 		AEA28D7619A254F1F4314AC2 /* Pods-FLAVR-RECIPE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLAVR-RECIPE.release.xcconfig"; path = "Target Support Files/Pods-FLAVR-RECIPE/Pods-FLAVR-RECIPE.release.xcconfig"; sourceTree = "<group>"; };
 		B50630E122D3BB8700F52048 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		B50BFEFD232983D5001D6197 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B50BFF00232A2912001D6197 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		B5296DD822C782450040D2C8 /* FLAVR-RECIPE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLAVR-RECIPE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5296DDB22C782460040D2C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5296DDD22C782460040D2C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +64,10 @@
 		B537E34922D1D4D60070D18F /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		B537E34B22D1EC400070D18F /* FeaturedCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCollectionCell.swift; sourceTree = "<group>"; };
 		B537E34D22D1EDC80070D18F /* FeaturedCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeaturedCollectionCell.xib; sourceTree = "<group>"; };
+		B553C01722DFA4370028C479 /* flavr_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flavr_logo.png; sourceTree = "<group>"; };
+		B553C01822DFA4370028C479 /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash.jpg; sourceTree = "<group>"; };
+		B553C01C22DFA55D0028C479 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		B553C01E22DFB3730028C479 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		B577ABD122C7DA44003480C5 /* LoginInSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInSignUpViewController.swift; sourceTree = "<group>"; };
 		B577ABD322C7F076003480C5 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		B5CBA56322CC85B9002F5FDB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -86,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B50BFEFF232A28FC001D6197 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B50BFF00232A2912001D6197 /* Categories.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B5296DCF22C782450040D2C8 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +127,8 @@
 		B5296DDA22C782460040D2C8 /* FLAVR-RECIPE */ = {
 			isa = PBXGroup;
 			children = (
+				B50BFEFF232A28FC001D6197 /* Model */,
+				B553C01B22DFA4430028C479 /* Resources */,
 				B5CBA57822CE694C002F5FDB /* Cell */,
 				B577ABD022C7DA23003480C5 /* Controller */,
 				B5296DED22C783B00040D2C8 /* Custome */,
@@ -114,6 +136,7 @@
 				B5296DDD22C782460040D2C8 /* ViewController.swift */,
 				B5296DDF22C782460040D2C8 /* Main.storyboard */,
 				B5296DE222C782480040D2C8 /* Assets.xcassets */,
+				B50BFEFD232983D5001D6197 /* GoogleService-Info.plist */,
 				B5296DE422C782480040D2C8 /* LaunchScreen.storyboard */,
 				B5296DE722C782480040D2C8 /* Info.plist */,
 				B5CBA57522CDF09A002F5FDB /* BigPicture.storyboard */,
@@ -134,6 +157,15 @@
 			path = Custome;
 			sourceTree = "<group>";
 		};
+		B553C01B22DFA4430028C479 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B553C01722DFA4370028C479 /* flavr_logo.png */,
+				B553C01822DFA4370028C479 /* splash.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B577ABD022C7DA23003480C5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +176,8 @@
 				B5CBA56F22CDECBE002F5FDB /* CategoryVC.swift */,
 				B5CBA57122CDEE29002F5FDB /* FavouriteVC.swift */,
 				B5CBA57322CDEE42002F5FDB /* ProfileVC.swift */,
+				B553C01C22DFA55D0028C479 /* SplashVC.swift */,
+				B553C01E22DFB3730028C479 /* TabBarVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -245,9 +279,12 @@
 				B5296DE622C782480040D2C8 /* LaunchScreen.storyboard in Resources */,
 				B537E34622D126310070D18F /* FeatureCell.xib in Resources */,
 				B5296DE322C782480040D2C8 /* Assets.xcassets in Resources */,
+				B553C01A22DFA4380028C479 /* splash.jpg in Resources */,
+				B50BFEFE232983D5001D6197 /* GoogleService-Info.plist in Resources */,
 				B5CBA57622CDF09A002F5FDB /* BigPicture.storyboard in Resources */,
 				B5296DE122C782460040D2C8 /* Main.storyboard in Resources */,
 				B537E34A22D1D4D60070D18F /* HeaderView.xib in Resources */,
+				B553C01922DFA4380028C479 /* flavr_logo.png in Resources */,
 				B537E34E22D1EDC80070D18F /* FeaturedCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +346,7 @@
 				B5CBA57422CDEE42002F5FDB /* ProfileVC.swift in Sources */,
 				B5CBA56A22CCA946002F5FDB /* SignUpVC.swift in Sources */,
 				B5CBA56C22CCB885002F5FDB /* CustomeNavigationController.swift in Sources */,
+				B553C01F22DFB3730028C479 /* TabBarVC.swift in Sources */,
 				B5296DDE22C782460040D2C8 /* ViewController.swift in Sources */,
 				B5CBA56822CCA3A8002F5FDB /* CustomeTextField.swift in Sources */,
 				B537E34422D1260B0070D18F /* FeatureCell.swift in Sources */,
@@ -317,10 +355,12 @@
 				B5CBA56422CC85B9002F5FDB /* LoginVC.swift in Sources */,
 				B5CBA57222CDEE29002F5FDB /* FavouriteVC.swift in Sources */,
 				B5CBA57E22CE8B8E002F5FDB /* ShadowView.swift in Sources */,
+				B50BFF01232A2912001D6197 /* Categories.swift in Sources */,
 				B5296DEF22C783CA0040D2C8 /* CustomeColor.swift in Sources */,
 				B577ABD222C7DA44003480C5 /* LoginInSignUpViewController.swift in Sources */,
 				B577ABD422C7F076003480C5 /* CustomButton.swift in Sources */,
 				B50630E222D3BB8700F52048 /* CategoryCell.swift in Sources */,
+				B553C01D22DFA55D0028C479 /* SplashVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,13 +508,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 84W8QG5399;
+				DEVELOPMENT_TEAM = QZT2278CHH;
 				INFOPLIST_FILE = "FLAVR-RECIPE/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "createsapps.FLAVR-RECIPE";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.createsapps.FLAVR-RECIPE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,13 +527,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 84W8QG5399;
+				DEVELOPMENT_TEAM = QZT2278CHH;
 				INFOPLIST_FILE = "FLAVR-RECIPE/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "createsapps.FLAVR-RECIPE";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.createsapps.FLAVR-RECIPE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
